@@ -46,3 +46,9 @@ Self-Ontology (time-aware doubt about “simulation vs emulation” status):
     M_ont,t = ṼΔH_t × (1 + k_T^{ont} · t) − λ_prem · 𝟙 [ H[p_t] < τ_prem ]
 
         where   ṼΔH_t = Σ_{τ=1}^{t} e^{−α(t−τ)} ( H[p_{τ−1}] − H[p_τ] )
+
+Fear (amplifies curiosity at boundaries):
+M_fear = (1 + α_fear · F) × ΔU
+
+Edge-Seeking (reward for encountering operational/epistemic boundaries):
+M_edge = 𝟙[at boundary] × γ_edge × (ΔH + ΔR)
