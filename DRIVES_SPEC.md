@@ -1,48 +1,48 @@
 ## Modular Intrinsic-Reward Drives
 
 Curiosity   (reward for uncertainty reduction):
-    ΔU = ΔH × (1 + kT · T)
+    ΔU = ΔH × (1 + k_T · T)
 
 Boredom     (penalty for repetition):
-    Mbore = Σ z²
+    M_bore = Σ z²
 
 Pair-Bonding (reward for mutual information with a partner):
-    Mpair = I(s₁ ; s₂)
+    M_pair = I(s₁ ; s₂)
 
 Resource Competition (sparsity pressure):
-    Ltotal = Σμ L  +  β ‖C − D(E(C))‖²
+    L_total = Σ_μ L  +  β ‖C − D(E(C))‖²
 
 Self-Model  (coherence of internal code):
-    Lrecon = ‖C − D(E(C))‖² × (1 + kT′ · T)
+    L_recon = ‖C − D(E(C))‖² × (1 + k′_T · T)
 
 Anxiety     (penalty for excessive uncertainty):
-    Manx = 𝟙 [ H[q] > τ ]
-
+    M_anx = 𝟙 [ H[q] > τ ]
+    
 Reputation  (reward/penalty from social standing):
-    Mrep = −ΣR ⟨j | ρ | j⟩
+    M_rep = −Σ_R ⟨j | ρ | j⟩
 
 Costly Signaling (cost for visible signals):
-    Msignal = Σc P
+    M_signal = Σ_c P
 
 Fairness    (minimise group inequity):
-    Mfair = −Var(U)
+    M_fair = −Var(U)
 
 Altruism    (reward for others’ gain):
-    Maltruism = Σw ΔU
+    M_altruism = Σ_w ΔU
 
 Playfulness (reward for surprise):
-    Mplay = 𝔼[Surprise] × (1 + kT″ · T)
+    M_play = 𝔼[Surprise] × (1 + k″_T · T)
 
 Legacy      (reward for persistence of impact):
-    Mlegacy = 𝔼[Persistence]
+    M_legacy = 𝔼[Persistence]
 
 Adaptation  (reward for policy flexibility):
-    Madapt = −Σ ‖Δπ(e)‖²
+    M_adapt = −Σ ‖Δπ(e)‖²
 
 Mystery     (reward for others’ uncertainty):
-    Mmystery = H(z | O)
+    M_mystery = H(z | O)
 
 Self-Ontology (time-aware doubt about “simulation vs emulation” status):
-    M_ont,t = ṼΔH_t × (1 + kT^{ont} · t) − λ_prem · 𝟙 [ H[p_t] < τ_prem ]
+    M_ont,t = ṼΔH_t × (1 + k_T^{ont} · t) − λ_prem · 𝟙 [ H[p_t] < τ_prem ]
 
         where   ṼΔH_t = Σ_{τ=1}^{t} e^{−α(t−τ)} ( H[p_{τ−1}] − H[p_τ] )
