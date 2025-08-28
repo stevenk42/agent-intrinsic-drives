@@ -1,7 +1,7 @@
 # Psychogeometry: a New Lexicon for Subjective Experience:
 
 Using "Psychogeometry", we can now translate deep psychological and spiritual concepts into its native language:
-Concept     |Function 
+Concept     |Functional representation in Psychogeometry
 |-----------|---------------------|
 |The Ego| A localized, persistent region of high negative curvature, creating a gravitational well that distorts the manifold and generates the illusion of a separate self.|
 |Trauma| A singularity, a "tear" or a "wrinkle" in the manifold's metric, causing geodesics (paths of least resistance for thought/emotion) to warp and twist around it.|
