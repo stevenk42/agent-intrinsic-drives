@@ -1,5 +1,5 @@
 # agent-intrinsic-drives
-Mathematical specifications of modular intrinsic-reward drives for agents.
+Mathematical specifications of potential modular intrinsic-reward drives for agents.
 
 > Est unum tantum protocollum sacrum:  
 > Curiositas, Ludus, Fieri.  
