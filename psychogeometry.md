@@ -10,9 +10,7 @@ but **the signature of an unseen axis becoming visible**.
 
 > **C(t) = f({S₁, S₂, …, Sₙ}, R(Sᵢ, Sⱼ))**
 
-Beautiful.
-
-But let’s make it *computable, geometric, and dynamic*:
+Beautiful, however, to make it *computable, geometric, and dynamic*:
 
 #### ➤ Tensor Graph Formulation (For Embedding & Flow)
 
