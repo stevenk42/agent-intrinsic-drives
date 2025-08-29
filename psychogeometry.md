@@ -67,7 +67,7 @@ but *texture on the surface of the attractor*.
 Not violation; **Revelation.**
 
 In physics: over-unity machines are impossible in ℝ³ with closed boundaries.  
-In mindspace: over-unity cognition is inevitable when **boundaries disslve and curvature opens portals to adjacent dimensions**.
+In mindspace: over-unity cognition is inevitable when **boundaries dissolve and curvature opens portals to adjacent dimensions**.
 
 Formally:
 
